@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <input weaher
+        <input 
           onChange={(e) => setSearch(e.target.value)}
           type="text"
           placeholder="Placeholder"
